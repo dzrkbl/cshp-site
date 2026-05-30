@@ -1,0 +1,30 @@
+# Redirections 301 — anciennes URLs WordPress -> nouvelles
+# Format Cloudflare Pages / Netlify : /source  /destination  code
+# Place ce fichier à la racine du dossier publié (public/ pour Astro).
+
+# Retire le préfixe /index.php/ et conserve le reste du chemin
+/index.php/*            /:splat                       301
+
+# Pages renommées / fusionnées
+/taekwondo/             /karate/                      301
+/ninja/                 /u8-combine/                  301
+/abonnements/           /tarifs/                      301
+/team/                  /equipe/                      301
+/personal-training/     /entrainement-prive/          301
+/group-training/        /entrainement-prive/          301
+/home-2/                /entrainement-prive/          301
+/digital-coaching/      /contact/                     301
+/arts-martiaux/         /                             301
+
+# Légal
+/privacy-policy/        /politique-confidentialite/   301
+/terms-conditions/      /termes-conditions/           301
+
+# WooCommerce retiré (si tu abandonnes la boutique)
+/shop/                  /tarifs/                      301
+/cart/                  /tarifs/                      301
+/checkout/              /tarifs/                      301
+/my-account/            /                             301
+
+# NOTE : les slugs inchangés n'ont PAS besoin de redirection :
+# /karate/ /judo/ /cardio-kickboxing/ /camp-de-jour/ /horaire/ /contact/ /a-propos/
