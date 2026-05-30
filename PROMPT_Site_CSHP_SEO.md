@@ -6,7 +6,7 @@
 
 ## 0. RÔLE & OBJECTIF
 
-Tu es un développeur web + spécialiste SEO local senior. Tu construis le **site web complet** du **Centre Sportif de Haute-Performance (CSHP)**, un club d'arts martiaux à Montréal. Objectif principal : **dominer le SEO local** sur les requêtes « karaté / judo / arts martiaux enfants » dans Rosemont–La Petite-Patrie et environs, et **convertir** les visiteurs vers un essai gratuit.
+Tu es un développeur web + spécialiste SEO local senior. Tu construis le **site web complet** du **Centre Sportif de Haute-Performance (CSHP)**, un club d'arts martiaux à Montréal. Objectif principal : **dominer le SEO local** sur les requêtes « karaté / judo / arts martiaux enfants » dans **Mercier (Mercier–Hochelaga-Maisonneuve)** et l'est de Montréal, et **convertir** les visiteurs vers un essai gratuit.
 
 Priorités, dans l'ordre :
 1. SEO technique + local (Core Web Vitals, données structurées, NAP, pages de quartier).
@@ -72,7 +72,7 @@ Le design system généré (`design-system/MASTER.md`) est la **source de vérit
 |---|---|
 | Nom | Centre Sportif de Haute-Performance (CSHP) |
 | Adresse | 6498 rue Beaubien Est, Montréal, QC, H1M 1A9, Canada |
-| Quartier | Rosemont–La Petite-Patrie |
+| Quartier | Mercier (Mercier–Hochelaga-Maisonneuve) |
 | Téléphone | +1 514-747-5865 |
 | Courriel | centrehp@outlook.com |
 | Facebook | facebook.com/centrehp |
@@ -93,7 +93,7 @@ Le design system généré (`design-system/MASTER.md`) est la **source de vérit
 - Rabais famille : **-10 %** dès le 2e enfant (et suivants)
 - **Essai gratuit** = offre d'appel principale (CTA partout)
 
-> **CORRIGER l'erreur du site actuel** : ne JAMAIS écrire « Saint-Léonard ». Le club est à **Rosemont** (Beaubien Est).
+> **CORRIGER les erreurs du site actuel** : ne JAMAIS écrire « Saint-Léonard » ni « Rosemont ». Le club est à **Mercier** (6498 rue Beaubien Est, H1M 1A9).
 
 ---
 
@@ -114,22 +114,22 @@ Affiliation : **Karaté Québec**. Mentionne la participation aux compétitions 
 Intègre-les **naturellement** dans titles, H1/H2, contenu, alt d'images, URLs. Français Québécois.
 
 **Marque / général**
-- arts martiaux Montréal, arts martiaux enfants Montréal, club d'arts martiaux Rosemont
+- arts martiaux Montréal, arts martiaux enfants Montréal, club d'arts martiaux Mercier
 
 **Karaté**
-- cours de karaté Montréal, karaté enfant Montréal, karaté Rosemont, karaté Beaubien, club de karaté compétitif Montréal, karaté Québec
+- cours de karaté Montréal, karaté enfant Montréal, karaté Mercier, karaté Beaubien Est, club de karaté compétitif Montréal, karaté Québec
 
 **Judo**
-- cours de judo Montréal, judo enfant Rosemont, club de judo Montréal
+- cours de judo Montréal, judo enfant Mercier, club de judo Montréal
 
 **Autres programmes**
 - cardio kickboxing femmes Montréal, camp de jour arts martiaux Montréal, programme parascolaire arts martiaux, cours arts martiaux 4-8 ans (U8)
 
 **Conversion / longue traîne**
-- cours d'essai gratuit karaté Montréal, inscription karaté enfant Rosemont, arts martiaux près de moi
+- cours d'essai gratuit karaté Montréal, inscription karaté enfant Mercier, arts martiaux près de moi
 
-**Quartiers (pages dédiées)**
-- karaté Rosemont, karaté La Petite-Patrie, arts martiaux Villeray, arts martiaux Mercier-Ouest
+**Quartiers (pages dédiées) — à confirmer par le client**
+- karaté Mercier, arts martiaux Anjou, arts martiaux Saint-Léonard, arts martiaux Hochelaga-Maisonneuve
 
 ---
 
@@ -155,16 +155,16 @@ URLs propres, en français, sans `/index.php/`. Chaque page a UN objectif SEO + 
 /blog/                    Index blog (moteur de contenu SEO)
 /blog/[article]/          Articles
 # Pages de quartier (SEO local longue traîne) :
-/arts-martiaux/rosemont/
-/arts-martiaux/petite-patrie/
-/arts-martiaux/villeray/
-/arts-martiaux/mercier-ouest/
+/arts-martiaux/mercier/
+/arts-martiaux/anjou/
+/arts-martiaux/saint-leonard/
+/arts-martiaux/hochelaga-maisonneuve/
 # Légal :
 /politique-confidentialite/
 /termes-conditions/
 ```
 
-**Pages de quartier** : même structure, contenu RÉÉCRIT (pas dupliqué) — mentionne le quartier, la distance/accès depuis ce quartier, les programmes, un témoignage local, CTA. Évite le *thin/duplicate content* (Google pénalise).
+**Pages de quartier** (optionnelles, Phase 2) : à ne créer **que** si on a du contenu réel (vrai accès/transport depuis ce quartier, vrais témoignages de familles de ce quartier). **Ne pas inventer** de contenu pour remplir. Sans matière réelle, ne pas créer la page (mieux vaut 0 page que du *thin content* qui pénalise). Si créées : contenu unique par quartier, jamais dupliqué.
 
 ---
 
@@ -201,7 +201,7 @@ Exemple minimal (à compléter, une fois en global) :
     "addressCountry": "CA"
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 45.5876306, "longitude": -73.5604992 },
-  "areaServed": ["Rosemont", "La Petite-Patrie", "Villeray", "Mercier-Ouest"],
+  "areaServed": ["Mercier", "Anjou", "Saint-Léonard", "Hochelaga-Maisonneuve"],
   "sameAs": [
     "https://www.facebook.com/centrehp",
     "https://www.instagram.com/centresportif_hp"
@@ -230,14 +230,14 @@ Exemple minimal (à compléter, une fois en global) :
 ### 7.3 Templates title/description (exemples)
 | Page | Title | Meta description |
 |---|---|---|
-| Accueil | Arts martiaux à Montréal – Karaté & Judo \| CSHP | Club familial d'arts martiaux à Rosemont. Karaté, judo, U8. Coach actif aux sélections Karaté Québec. Réserve ton essai gratuit. |
-| Karaté | Cours de karaté à Montréal (Rosemont) \| CSHP | Cours de karaté enfants et ados à Beaubien Est. Discipline, confiance, filière compétitive Karaté Québec. Essai gratuit. |
-| Judo | Cours de judo à Montréal – Rosemont \| CSHP | Initie ton enfant au judo dans un club familial de Rosemont. Encadrement de haut niveau. Réserve un essai gratuit. |
+| Accueil | Arts martiaux à Montréal – Karaté & Judo \| CSHP | Club familial d'arts martiaux à Mercier. Karaté, judo, U8. Coach actif aux sélections Karaté Québec. Réserve ton essai gratuit. |
+| Karaté | Cours de karaté à Montréal (Mercier) \| CSHP | Cours de karaté enfants et ados sur Beaubien Est. Discipline, confiance, filière compétitive Karaté Québec. Essai gratuit. |
+| Judo | Cours de judo à Montréal – Mercier \| CSHP | Initie ton enfant au judo dans un club familial de Mercier. Encadrement de haut niveau. Réserve un essai gratuit. |
 
 ### 7.4 Performance / Core Web Vitals (cibles)
 - LCP < 2,5 s · CLS < 0,1 · INP < 200 ms.
 - Images : **WebP/AVIF**, `width`/`height` explicites, `loading="lazy"` (sauf hero), `<picture>` responsive.
-- **Alt text descriptif + mot-clé** sur chaque image (ex. « enfant en cours de karaté à Rosemont »).
+- **Alt text descriptif + mot-clé** sur chaque image (ex. « enfant en cours de karaté à Mercier, Montréal »).
 - Fonts en `font-display: swap`, préchargées. CSS critique inline. Zéro JS bloquant.
 - Pas de carrousel lourd ni de plugin superflu.
 
@@ -251,10 +251,17 @@ Exemple minimal (à compléter, une fois en global) :
 
 ## 8. CONTENU & TON
 
+> ⚠️ **RÈGLE ABSOLUE — RÉUTILISER LE CONTENU EXISTANT, NE RIEN INVENTER**
+> - Le client a déjà des textes **précis et validés** sur `centresportifhp.com` (mission, histoire, approche, descriptions de cours). **Réutilise-les VERBATIM** autant que possible.
+> - Récupère le texte de chaque page existante via le **navigateur intégré d'Antigravity** (ouvre l'URL, lis, copie le contenu rédactionnel).
+> - **NE RÉÉCRIS PAS** le contenu éditorial. Tu peux seulement : corriger les fautes, retirer les incohérences factuelles connues (voir ci-dessous), et **restructurer pour le SEO** (H1/H2, titles, meta, schema, mots-clés) AUTOUR du texte existant.
+> - **N'INVENTE AUCUN FAIT** : lieu, dates, chiffres, accréditations, résultats. Si une info manque, laisse un placeholder `[À FOURNIR PAR LE CLIENT]` — ne devine jamais.
+> - **Incohérences à corriger** : remplacer toute mention « Saint-Léonard » ou « Rosemont » par **Mercier** (lieu réel) ; retirer le Taekwondo.
+
 - **Français québécois**, chaleureux mais pro. Parle aux **parents** (Persona « parent débordé » : écrans, manque de discipline/temps, recherche un co-éducateur, proximité, pas de contrat rigide).
 - Chaque page programme : H1 mot-clé + intro (problème du parent → solution), bénéfices (puces), à qui ça s'adresse + âges, déroulé d'un cours, encadré USP coach, CTA essai gratuit, mini-FAQ (3-5 Q/R = schema FAQPage).
 - **E-E-A-T** sur `/equipe/` et `/voie-competition/** : crédentials du coach, affiliation Karaté Québec, résultats/compétitions, photos réelles. C'est ce qui te démarque.
-- Réutilise/réécris le contenu fort du site actuel (mission, approche pédagogique) en l'enrichissant de mots-clés et en supprimant les incohérences.
+- Réutilise le contenu fort du site actuel (mission, histoire, approche pédagogique, descriptions de cours) **tel quel**, en l'organisant sous des H2 ciblés mots-clés. N'enrichis qu'avec des faits réels déjà présents sur le site.
 
 ---
 
@@ -284,7 +291,7 @@ Exemple minimal (à compléter, une fois en global) :
 - [ ] Toutes les pages de la section 6 créées, H1 uniques, NAP identique partout.
 - [ ] JSON-LD valide sur chaque page (tester via Rich Results Test).
 - [ ] `lang="fr-CA"`, `og:locale=fr_CA`, titles/metas uniques.
-- [ ] Aucune mention « Saint-Léonard ». Adresse = Beaubien Est / Rosemont.
+- [ ] Aucune mention « Saint-Léonard » ni « Rosemont ». Adresse = 6498 rue Beaubien Est, **Mercier**, H1M 1A9.
 - [ ] Images WebP + alt avec mots-clés + dimensions explicites.
 - [ ] Lighthouse : Performance ≥ 90, SEO = 100, Accessibilité ≥ 95.
 - [ ] sitemap.xml + robots.txt présents.

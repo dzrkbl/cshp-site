@@ -3,7 +3,7 @@
 > Ce fichier est lu automatiquement par l'agent (Antigravity) à chaque session. Il est la **loi du projet**. Respecte-le en tout temps.
 
 ## OBJECTIF
-Construire le **site web complet du Centre Sportif de Haute-Performance (CSHP)**, club d'arts martiaux à Montréal, **optimisé pour le SEO local** (Rosemont–La Petite-Patrie) et la **conversion** vers un essai gratuit.
+Construire le **site web complet du Centre Sportif de Haute-Performance (CSHP)**, club d'arts martiaux à Montréal, **optimisé pour le SEO local** (**Mercier / Mercier–Hochelaga-Maisonneuve**) et la **conversion** vers un essai gratuit.
 
 Priorités, dans l'ordre : 1) SEO technique + local · 2) Conversion · 3) Design pro et rassurant.
 
@@ -22,7 +22,7 @@ Priorités, dans l'ordre : 1) SEO technique + local · 2) Conversion · 3) Desig
 ## FAITS ENTREPRISE — NAP IDENTIQUE PARTOUT (ne jamais dévier)
 - Nom : Centre Sportif de Haute-Performance (CSHP)
 - Adresse : 6498 rue Beaubien Est, Montréal, QC, H1M 1A9, Canada
-- Quartier : Rosemont–La Petite-Patrie
+- Quartier : Mercier (Mercier–Hochelaga-Maisonneuve)
 - Téléphone : +1 514-747-5865
 - Courriel : centrehp@outlook.com
 - Géo : lat 45.5876306, lng -73.5604992
@@ -40,10 +40,15 @@ Priorités, dans l'ordre : 1) SEO technique + local · 2) Conversion · 3) Desig
 ## USP (mettre en avant partout)
 Seul club dans 5 km dont le **head coach est actif aux sélections de Karaté Québec**. Filière compétitive structurée + approche familiale.
 
+## CONTENU — RÉUTILISER L'EXISTANT, NE RIEN INVENTER
+- Les textes du site actuel (centresportifhp.com) sont **précis et validés**. **Réutilise-les VERBATIM.** Récupère-les via le navigateur intégré (ouvre chaque page, copie le texte).
+- **NE RÉÉCRIS PAS** le contenu rédactionnel. Améliore seulement la structure SEO autour (H1/H2, titles, meta, schema, mots-clés).
+- **N'INVENTE AUCUN FAIT** (lieu, dates, chiffres, accréditations, résultats). Info manquante → placeholder `[À FOURNIR PAR LE CLIENT]`, jamais une supposition.
+
 ## RÈGLES STRICTES
 - Langue : **français québécois**. `<html lang="fr-CA">`, `og:locale=fr_CA`.
 - **Pas de Taekwondo** (programme retiré). Programmes : Karaté, Judo, U8 Combiné, Cardio Kickboxing (femmes), Entraînement privé, Camp de jour.
-- **Ne jamais écrire « Saint-Léonard »** : le club est à Rosemont (Beaubien Est).
+- **Ne jamais écrire « Saint-Léonard » ni « Rosemont »** : le club est à **Mercier** (6498 rue Beaubien Est, H1M 1A9).
 - Icônes en SVG (Lucide/Heroicons), jamais d'emoji-icône.
 - Chaque page : H1 unique, title ≤ 60 car., meta description unique 140-160 car., canonical, JSON-LD approprié.
 - **NE PAS toucher au site WordPress en ligne** (centresportifhp.com reste live jusqu'au cutover).
