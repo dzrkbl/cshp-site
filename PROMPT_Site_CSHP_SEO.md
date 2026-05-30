@@ -234,8 +234,9 @@ Exemple minimal (à compléter, une fois en global) :
 | Karaté | Cours de karaté à Montréal (Mercier) \| CSHP | Cours de karaté enfants et ados sur Beaubien Est. Discipline, confiance, filière compétitive Karaté Québec. Essai gratuit. |
 | Judo | Cours de judo à Montréal – Mercier \| CSHP | Initie ton enfant au judo dans un club familial de Mercier. Encadrement de haut niveau. Réserve un essai gratuit. |
 
-### 7.4 Performance / Core Web Vitals (cibles)
-- LCP < 2,5 s · CLS < 0,1 · INP < 200 ms.
+### 7.4 Performance / Core Web Vitals (cibles)- LCP < 2,5 s · CLS < 0,1 · INP < 200 ms.
+- **Source des photos** : les vraies photos du club sont dans **`public/images/`** (récupérées de l'ancien site). **Utilise CELLES-LÀ** — n'invente pas d'images, n'utilise pas de stock. Regarde-les et **choisis les meilleures** pour le hero et chaque section (cadrage net, énergie, vrais membres). Ignore les doublons (ex. `IMG_0944*`) et les visuels « Design-sans-titre » sauf si pertinents.
+- **Traitement** : convertis les photos retenues en **WebP** (qualité ~80), **renomme** avec des mots-clés FR (ex. `karate-enfants-mercier.webp`, `judo-montreal.webp`), génère 2-3 tailles responsive.
 - Images : **WebP/AVIF**, `width`/`height` explicites, `loading="lazy"` (sauf hero), `<picture>` responsive.
 - **Alt text descriptif + mot-clé** sur chaque image (ex. « enfant en cours de karaté à Mercier, Montréal »).
 - Fonts en `font-display: swap`, préchargées. CSS critique inline. Zéro JS bloquant.
