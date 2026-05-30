@@ -8,7 +8,7 @@
 
 **Project:** CSHP
 **Generated:** 2026-05-30 14:17:20
-**Category:** Home Services (Plumber/Electrician)
+**Category:** Sports & Fitness (Arts martiaux)
 
 ---
 
@@ -18,13 +18,13 @@
 
 | Role | Hex | CSS Variable |
 |------|-----|--------------|
-| Primary | `#1E3A8A` | `--color-primary` |
-| Secondary | `#3B82F6` | `--color-secondary` |
-| CTA/Accent | `#F97316` | `--color-cta` |
-| Background | `#EFF6FF` | `--color-background` |
-| Text | `#1E40AF` | `--color-text` |
+| Primary | `#111827` | `--color-primary` |
+| Secondary | `#1F2937` | `--color-secondary` |
+| CTA/Accent | `#DC2626` | `--color-cta` |
+| Background | `#FFFFFF` | `--color-background` |
+| Text | `#111827` | `--color-text` |
 
-**Color Notes:** Sky blue + booking orange
+**Color Notes:** Noir charbon + rouge karate + blanc
 
 ### Typography
 
@@ -68,7 +68,7 @@
 ```css
 /* Primary Button */
 .btn-primary {
-  background: #F97316;
+  background: #DC2626;
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -85,8 +85,8 @@
 /* Secondary Button */
 .btn-secondary {
   background: transparent;
-  color: #1E3A8A;
-  border: 2px solid #1E3A8A;
+  color: #111827;
+  border: 2px solid #111827;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 600;
@@ -99,7 +99,7 @@
 
 ```css
 .card {
-  background: #EFF6FF;
+  background: #F9FAFB;
   border-radius: 12px;
   padding: 24px;
   box-shadow: var(--shadow-md);
@@ -125,9 +125,9 @@
 }
 
 .input:focus {
-  border-color: #1E3A8A;
+  border-color: #111827;
   outline: none;
-  box-shadow: 0 0 0 3px #1E3A8A20;
+  box-shadow: 0 0 0 3px #11182720;
 }
 ```
 
